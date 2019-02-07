@@ -1,0 +1,271 @@
+#divider2{
+    display: flex;
+    justify-content: center;
+    border-top: 2px dashed #000000;
+    font-size:60px;
+    width: 100%;
+    margin-bottom: 18px;
+    background-color: #ffff;
+}
+
+#divider{
+    border-top: 2px dashed #000000;
+    width: 320px;
+    margin-top: 4px;
+    margin-left: 27px;
+ }
+
+ #fullstack{
+
+    margin-top: 7px;
+    margin-left: 122px;
+    color: rgb(206, 32, 32);
+ }
+
+
+#copyrights {
+    
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-content:flex-end;
+    background-color: #ffff;
+    max-width: 1000px;
+    margin:0 auto;
+}
+#portfolio {
+
+    font-size: 55px;
+    margin-left: 40px;
+    color:rgb(15, 15, 63);
+}
+
+
+
+
+#resume {
+
+    font-size: 45px;
+    margin-left: 60px;
+    color:rgb(17, 17, 75);
+}
+
+#blog {
+
+    font-size: 40px;
+    margin-left:180px;
+    color:rgb(17, 17, 75);
+}
+
+#contact {
+    font-size: 60px;
+    margin-left: 90px;
+    vertical-align: top;
+    color:rgb(17, 17, 75);
+}
+
+#aboutme {
+    font-size: 40px; 
+    margin-left:17px;
+    color:rgb(17, 17, 75);
+    bottom: 0px;
+}
+
+#portfolio:hover {
+
+    color: orange;
+    transform: scale(1.1);
+
+}
+
+#contact:hover {
+
+    color: orange;
+    transform: scale(1.1);
+}
+
+#portfolio:hover {
+
+    color: orange;
+    transform: scale(1.1);
+}
+
+#blog:hover {
+
+    color: orange;
+    transform: scale(1.1);
+}
+#resume:hover {
+
+    color: orange;
+    transform: scale(1.1);
+
+}
+#aboutme:hover {
+
+    color: orange;
+    transform: scale(1.1);
+
+}
+container {
+    max-width:1000px;
+    display: grid;
+    grid-template-columns: .6fr 1fr;
+    grid-template-rows: auto;
+    background-color: #fff;
+    margin:0 auto;
+    padding:0;
+    font-family: 'Special Elite', cursive;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #d59901;
+}
+
+.name {
+    font-size:25px;
+    justify-content: flex-start;
+    align-content: space-around;
+    display:flex;
+    margin-top:17px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+}
+ #var{
+
+    font-size:25px;
+    color: #57aa07;
+    margin-top: 4px;
+ }
+
+.about-me-article {
+     font-family: 'Courier New', Courier, monospace; 
+}
+#social-media{
+
+    display:flex;
+    height:33px;
+    justify-content:flex-end;
+    max-width: 1000px; 
+    margin: 0 auto;
+}
+
+.navigation .selected {
+    background-color: #57aa07;
+}
+
+.navigation {
+    font-family: 'Courier New', Courier, monospace;
+    
+     
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-inline-start: 0px
+}
+
+.navigation > li {
+    font-size: 40px; 
+    display: inline-flex;
+    align-items: center;
+}
+
+.navigation > li:first-child::before {
+    content: '{';
+    font-size: 100px;
+    color:orange;
+}
+
+.navigation > li:last-child::after {
+    content: '}';
+    font-size: 100px;
+    color:orange;
+}
+#profilepic {
+  margin-left: 75px;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}body {
+    background-color: rgb(235, 233, 233);
+}
+
+#details {
+
+    margin-top : 20px;
+    margin-left:20px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: scroll;    
+}
+
+#details2  {
+    margin-top : 10px;
+    margin-left:20px;
+    padding-right: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#border {
+
+    height: 8px;
+    background-color : orange;
+    max-width:1000px;
+    margin: 0px auto;
+}
+
+#who{
+
+    font-size: 35px;
+    color:orange;
+}
+
+#what{
+
+    margin-top : 10px;
+    margin-left:20px;
+    padding-right: 20px;
+}
+
+#projects{
+    margin-top : 10px;
+    margin-left:20px;
+    padding-right: 20px;
+}
+
+.portfolio-images{
+    display:none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-top: 12px;
+    border: 2px dashed #000000;
+    max-width: 1000px;
+    
+}
+
+.what {
+    /* display:none; */
+}
+
+#langlist{
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin-left: 20px;
+
+
+}
+
+#projects1:hover{
+
+    background-color:red;
+}
+
+
+
